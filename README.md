@@ -3,7 +3,7 @@ patika.dev / kodluyoruz.org Bootstrap eğitiminin 1. ödevi
 
 ## Istenilenler
 
-css-odev1 deki sayfayinin bootstrap kullanilarak yeniden tasarlanmasi
+css-odev1 deki sayfanın bootstrap kullanılarak yeniden tasarlanması
 - HTML kısmını önceki ödevden alabilirsiniz fakat baştan yapmanızı öneririz.
 - Menüyü koyu renkli olarak düzenleyin. İsterseniz arka plan rengi de verebilirsiniz.
 - Ana sayfaya bir jumbotron koyup içeriğinizin açıklamasını yazınız.
@@ -16,5 +16,5 @@ css-odev1 deki sayfayinin bootstrap kullanilarak yeniden tasarlanmasi
 ![resim](img/sonuc.png)
 
 ## Bilinen Sorunlar
-- "products.html" sayfasinda container'in particle.js arkaplaninin üzerinde konumlanmasi ve responsive özelligi korumak icin position: fixed; kullaniliyor (absolute çözünürlük değiştiğinde yapıyı eski haline alamıyor) ve bu sebepten dolayi sayfada scroll yapilamiyor. 
-- card ögelerinde yazilarin bulundugu grid/col genisliginin veya card ögelerinde bulunan yazilarin uzunluguna göre card boyutu degisime ugruyor.   
+- "products.html" sayfasında container'ın particle.js arkaplanın üzerinde konumlanması ve responsive özelliği korumak için position: fixed; kullanılıyor (absolute kullanılınca çözünürlük değiştiğinde sistem yapıyı eski haline alamıyor) ve bu sebepten dolayı sayfada scroll yapılamıyor. 
+- card öğelerinde yazıların bulundugu grid/col genişliğinin veya card öğelerinde bulunan yazıların uzunluğuna göre card boyutu değişmemeli.   
