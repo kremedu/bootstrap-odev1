@@ -1,0 +1,69 @@
+.gradient {
+    background: linear-gradient(90deg,rgba(9, 27, 102, 0.6),rgba(26, 139, 204, 0.6));
+}
+
+.bg-gradient{
+    background: linear-gradient(90deg,rgba(0, 150, 105, 0.6),rgba(173, 225, 255, 0.6));
+}
+.body-bg {
+    background-color: #E9ECEF;
+}
+/* PARTICLES */
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background: #E9ECEF;
+    position: fixed;
+    z-index: 100; /*behind*/
+}
+#inside {
+    position: fixed;/*fixed allows to stay responsive while absolute cannot change back when res is changed, however pos fixed makes the element move with the scroll, disables scrolling ->possible fix <canvas>? */
+    z-index: 10; /*front */
+    /*center*/
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.nobullet {
+    list-style-type: none;
+}
+.centr {
+    margin: 0;
+    padding: 0;
+}
+
+.cardcenter {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.cardimg {
+   width: 540px;
+   height: 400px;
+}
+
+.img-fluid-h100p {
+    max-width: 540px;
+    min-height: 400px;
+    object-fit: cover;
+}
+
+.pcard {
+    margin-top: 20px;
+}
+.product-header {
+    font-size: 18px; /*Long text changes card size -> look for responsive fix ->? Responsive font sizes https://getbootstrap.com/docs/4.3/content/typography/*/
+    font-weight: 700;
+}
+
+
+/*https://codepen.io/daanisharif/pen/LZGjQG
+
+positison = fixed NOT absolute
+
+*/
+* {
+    overflow: visible;
+}
