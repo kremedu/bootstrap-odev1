@@ -16,5 +16,5 @@ css-odev1 deki sayfanın bootstrap kullanılarak yeniden tasarlanması
 ![resim](img/sonuc.png)
 
 ## Bilinen Sorunlar
-- "products.html" sayfasında container'ın particle.js arkaplanın üzerinde konumlanması ve responsive özelliği korumak için position: fixed; kullanılıyor (absolute kullanılınca çözünürlük değiştiğinde sistem yapıyı eski haline alamıyor) ve bu sebepten dolayı sayfada scroll yapılamıyor. 
+- CÖZÜLDÜ (canvas tagi, z-index) "products.html" sayfasında container'ın particle.js arkaplanın üzerinde konumlanması ve responsive özelliği korumak için position: fixed; kullanılıyor (absolute kullanılınca çözünürlük değiştiğinde sistem yapıyı eski haline alamıyor) ve bu sebepten dolayı sayfada scroll yapılamıyor. 
 - card öğelerinde yazıların bulundugu grid/col genişliğinin veya card öğelerinde bulunan yazıların uzunluğuna göre card boyutu değişmemeli.   
