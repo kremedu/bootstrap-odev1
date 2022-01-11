@@ -3,21 +3,22 @@
 }
 
 .bg-gradient{
-    background: linear-gradient(90deg,rgba(0, 150, 105, 0.6),rgba(173, 225, 255, 0.6));
+    background: linear-gradient(90deg,rgba(163, 174, 199, 0.6),rgba(173, 225, 255, 0.6));
 }
 .body-bg {
     background-color: #E9ECEF;
 }
+
 /* PARTICLES */
 #particles-js {
     width: 100%;
     height: 100%;
     background: #E9ECEF;
-    position: fixed;
-    z-index: 100; /*behind*/
+    position: absolute;
+    z-index: 6; /*behind*/
 }
-#inside {
-    position: fixed;/*fixed allows to stay responsive while absolute cannot change back when res is changed, however pos fixed makes the element move with the scroll, disables scrolling ->possible fix <canvas>? */
+.ontop {
+    position: absolute;/*fixed allows to stay responsive while absolute cannot change back when res is changed, however pos fixed makes the element move with the scroll, disables scrolling ->possible fix <canvas>? */
     z-index: 10; /*front */
     /*center*/
     margin: 0 auto;
